@@ -11,7 +11,7 @@ void brute_force(int *arr, int size)
     int sum = 0;
     int res = INT_MIN;
 
-    for (int i = 0; i < size - 1; ++i) {
+    for (int i = 0; i < size; ++i) {
         for (int j = i; j < size; ++j) {
             for (int k = i; k <= j; ++k) {
                 sum += arr[k];
@@ -28,7 +28,7 @@ void optimal_approach(int *arr, int size)
     int sum = 0;
     int res = INT_MIN;
 
-    for (int i = 0; i < size - 1; ++i) {
+    for (int i = 0; i < size; ++i) {
         sum = 0;
         for (int j = i; j < size; ++j) {
             sum += arr[j];
