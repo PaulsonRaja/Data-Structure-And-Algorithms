@@ -1,0 +1,40 @@
+Trees:
+----
+ * Trees are hierarchical data structure. Each node can have at max 2
+   children left node and right node. The tree starts of with a single
+   node known as root. Leaf nodes are nodes with no children. Node and
+   the beneath nodes are the subtree.
+
+
+Types of binary trees:
+----
+ * Full binary tree: Every node will have either 0 or 2 children.
+
+ * Complete binary tree: All levels are completely filled except the
+   last level, and the last level has all nodes as left as possible.
+
+ * Perfect binary tree: All leaf nodes are at the same level.
+
+ * Balances binary tree: Height of tree at max be log(n), where n is
+   the number of nodes, this is basically for searching efficiently.
+
+ * Degenerate trees: Every node has single children, Skew trees or
+   linked list format or straight line.
+
+
+Traversal Techniques (BFS / DFS):
+----
+DFS - Depth First Search:
+---
+ * The traversal goes depth wise.
+ * Inorder traversal - Left | Root | Right ( Goto extreme left subtree
+   and apply this logic and goto extreme right subtree and apply this
+   logic ).
+ * Preorder traversal  - Root | Left  | Right
+ * Postorder traversal - Left | Right | Root
+
+
+BFS - Breadth First Search:
+---
+ * The traversal goes level wise.
+
